@@ -1,0 +1,26 @@
+html, body {
+    scroll-padding-top: 35.2px;
+}
+#page-header .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 99%;
+	z-index: 99;
+}
+#page-header .navbar .navbar-container {
+	padding-right: 3px;
+}
+@media (max-width: 1182px) {
+	#page-header .navbar .navbar-container {
+		padding-right: 10px;
+	}
+}
+@media (max-width: 700px) {
+	#page-header .navbar .navbar-container {
+		padding-right: 5px;
+	}
+}
+.headerbar {
+	margin-top: 35.2px;
+}
